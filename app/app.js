@@ -3,9 +3,6 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-//Database
-const { sequelize, Vehicle } = require('./db');
-
 // Middleware for parsing request body
 app.use(express.json());
 
